@@ -1,10 +1,11 @@
 import React from 'react';
-import SecondBanner from '../SecondBanner/SecondBanner';
+import SecondBanner from './SecondBanner/SecondBanner';
 import Banner from './Banner/Banner';
 import InfoCards from './InfoCards/InfoCards';
 import MakeAppointment from './MakeAppointment';
 import Services from './Services/Services';
 import Testimonial from './Testimonial/Testimonial';
+import Contact from './Contact/Contact';
 
 const Home = () => {
     return (
@@ -12,10 +13,13 @@ const Home = () => {
             <Banner></Banner>
             <InfoCards></InfoCards>
             <Services></Services>
-            <MakeAppointment></MakeAppointment>
             <SecondBanner></SecondBanner>
+            <MakeAppointment></MakeAppointment>
             <Testimonial></Testimonial>
-        </div>
+            <Contact></Contact>
+     
+       </div>
+
     );
 };
 
